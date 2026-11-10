@@ -35,3 +35,10 @@ The implementation in this repository is newly authored for this portfolio and i
 
 ## License
 No license has been added yet. Add a license before redistributing this repository.
+
+## Fraud Model Evaluation and Risk Controls
+
+- Evaluate class-imbalanced performance with precision, recall, PR-AUC, and a confusion matrix at the chosen threshold.
+- Compare false-positive review cost with missed-fraud risk when selecting a decision threshold.
+- Use time-aware validation where transaction timestamps are available and guard against target leakage.
+- Treat risk scores as triage signals that require appropriate review, not definitive proof of fraud.
